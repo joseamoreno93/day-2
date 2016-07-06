@@ -1,20 +1,22 @@
 body{
-  height: 300vh;
+  height: 100vh;
 }
-.left-block, .left-block{
+.left-block, .right-block{
   border: 3px solid black;
   top: 30px;
   bottom:200px;
   left: 20px;
-  background-color: green;
+  display: inline-block;
 }
 .left-block{
   width: 250px;
+  background-color: green;
 }
 .right-block {
   width: 425px;
+  background-color: blue;
 }
-@media only screen and (max-width:700px;){
+@media only screen and (max-width:700px){
   .left-block{
     background-color: yellow
   }
