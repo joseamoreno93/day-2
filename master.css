@@ -23,6 +23,6 @@ body{
 }
 @media only screen and (min-width:375px){
   .left-block{
-    background-color: yellow;
+    background-color: red;
   }
 }
